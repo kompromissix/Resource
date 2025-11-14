@@ -17,7 +17,7 @@ export default function Header(){
                     </div>
                     <div className='w-[390px] flex justify-between'>
                         <div className='flex items-center justify-start w-[254px] h-[42px] rounded-l-[3px] border border-[#D9D9D9] border-solid '>
-                            <img src={loop} className='pr-[11px]' alt="" />
+                            <img src={loop} className='pl-[11px]' alt="" />
                             <input type="text" className='pl-[20px] w-[116px] text-[#E0E0E0]' placeholder='Search website...'/>
                         </div>
                         <button type="button" className='flex justify-center items-center w-[137px] h-[42px] bg-[#B8BDC9] text-[#E0E0E0]'>Search</button>
